@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FEC17B12-1862-49D6-B4CE-B28890E01FA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Homework</RootNamespace>
+    <AssemblyName>Homework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormPictureZoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPictureZoom.Designer.cs">
+      <DependentUpon>FormPictureZoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGuess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGuess.Designer.cs">
+      <DependentUpon>FormGuess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGuessInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGuessInput.Designer.cs">
+      <DependentUpon>FormGuessInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPaint.Designer.cs">
+      <DependentUpon>FormPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAlarm.Designer.cs">
+      <DependentUpon>FormAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCalc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCalc.Designer.cs">
+      <DependentUpon>FormCalc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPicture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPicture.Designer.cs">
+      <DependentUpon>FormPicture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPos.Designer.cs">
+      <DependentUpon>FormPos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStruct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStruct.Designer.cs">
+      <DependentUpon>FormStruct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility.cs" />
+    <Compile Include="FormLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoan.Designer.cs">
+      <DependentUpon>FormLoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoanReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoanReport.Designer.cs">
+      <DependentUpon>FormLoanReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHello.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHello.Designer.cs">
+      <DependentUpon>FormHello.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHome.Designer.cs">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormPictureZoom.resx">
+      <DependentUpon>FormPictureZoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGuess.resx">
+      <DependentUpon>FormGuess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGuessInput.resx">
+      <DependentUpon>FormGuessInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPaint.resx">
+      <DependentUpon>FormPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAlarm.resx">
+      <DependentUpon>FormAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCalc.resx">
+      <DependentUpon>FormCalc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoan.resx">
+      <DependentUpon>FormLoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHello.resx">
+      <DependentUpon>FormHello.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHome.resx">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoanReport.resx">
+      <DependentUpon>FormLoanReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPicture.resx">
+      <DependentUpon>FormPicture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPos.resx">
+      <DependentUpon>FormPos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStruct.resx">
+      <DependentUpon>FormStruct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\771253.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOAN1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guns-lots-of-guns-john-wick-gif.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
