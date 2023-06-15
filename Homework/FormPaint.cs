@@ -39,7 +39,6 @@ namespace Homework
                     g.DrawLine(drawingPen, previousPoint, e.Location);
                     previousPoint = e.Location;
                 }
-
                 pictureBoxPaint.Refresh();
             }
         }

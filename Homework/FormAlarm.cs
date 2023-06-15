@@ -122,8 +122,6 @@ namespace Homework
             stopFlash = false;
             pictureBox1.Visible = true;
 
-            //Timer_Tick(this, new EventArgs());
-
             for (int i = 0; i < 50; i++)
             {
                 if (stopFlash)

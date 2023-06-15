@@ -17,7 +17,6 @@ namespace Homework
             InitializeComponent();
         }
         
-        
         private void btnplus_Click(object sender, EventArgs e)
         {
             decimal num1, num2;

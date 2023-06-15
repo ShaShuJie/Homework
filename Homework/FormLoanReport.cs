@@ -16,8 +16,6 @@ namespace Homework
         public FormLoanReport(decimal LoanYear, decimal YLoanRate, decimal LoanAmount, decimal MonthPayment, decimal TotalPaymentResult)
         {
             InitializeComponent();
-
-            FormLoan formLoan = new FormLoan();
             textRELoanAmount.Text = LoanAmount.ToString();
             textRELoanYear.Text = LoanYear.ToString();
             textRELoanRate.Text = YLoanRate.ToString();
