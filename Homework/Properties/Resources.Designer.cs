@@ -73,6 +73,16 @@ namespace Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap _746551 {
+            get {
+                object obj = ResourceManager.GetObject("746551", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap _771253 {
             get {
                 object obj = ResourceManager.GetObject("771253", resourceCulture);
@@ -93,9 +103,39 @@ namespace Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap john_wick_lots_of_guns_hartono_amplas {
+            get {
+                object obj = ResourceManager.GetObject("john-wick-lots-of-guns-hartono-amplas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap LOAN1 {
             get {
                 object obj = ResourceManager.GetObject("LOAN1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Top {
+            get {
+                object obj = ResourceManager.GetObject("Top", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Top1 {
+            get {
+                object obj = ResourceManager.GetObject("Top1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

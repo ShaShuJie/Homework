@@ -29,7 +29,5 @@ namespace Homework
             FormPictureZoom pictureZoom = new FormPictureZoom(pictureBox.Image);
             pictureZoom.ShowDialog();
         }
-
-
     }
 }

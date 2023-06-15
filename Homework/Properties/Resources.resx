@@ -124,10 +124,19 @@
   <data name="LOAN1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOAN1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="771253" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\771253.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Top" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Top.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="746551" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\746551.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="771253" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\771253.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="john-wick-lots-of-guns-hartono-amplas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\john-wick-lots-of-guns-hartono-amplas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

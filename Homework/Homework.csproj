@@ -201,5 +201,14 @@
   <ItemGroup>
     <None Include="Resources\2.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\746551.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\john-wick-lots-of-guns-hartono-amplas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Top.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

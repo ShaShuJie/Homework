@@ -109,8 +109,6 @@ namespace Homework
             pictureBox1.Visible = false;
         }
 
-
-
         private void UpdateDisplay()
         {
             labHour.Text = hours.ToString("00");
@@ -141,7 +139,6 @@ namespace Homework
             }
             panel1.BackColor = Color.White;
             pictureBox1.Visible = false;
-            
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -158,8 +155,6 @@ namespace Homework
             // 更新 PictureBox 的位置
             pictureBox1.Left = newX;
         }
-
-
     }
 }
 
