@@ -19,6 +19,7 @@ namespace Homework
         {
             FGRandomNumber = random.Next(101); // 生成 0 到 100 之間的隨機整數
             FormGuessInput FGI = new FormGuessInput(FGRandomNumber, this);
+
             DialogResult result = FGI.ShowDialog();
         }
 

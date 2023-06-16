@@ -83,7 +83,9 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnEnter);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Location = new System.Drawing.Point(100, 100);
             this.Name = "FormGuessInput";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "輸入數字";
             this.ResumeLayout(false);
             this.PerformLayout();
