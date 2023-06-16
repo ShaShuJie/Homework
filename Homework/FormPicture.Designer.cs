@@ -37,7 +37,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Image = global::Homework.Properties.Resources._2;
+            this.pictureBox2.Image = global::Homework.Properties.Resources.Gunslotsofguns;
             this.pictureBox2.Location = new System.Drawing.Point(227, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(186, 183);
@@ -48,7 +48,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Homework.Properties.Resources.Guns_lots_of_guns_john_wick_gif;
+            this.pictureBox1.Image = global::Homework.Properties.Resources.knockhead;
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(192, 183);

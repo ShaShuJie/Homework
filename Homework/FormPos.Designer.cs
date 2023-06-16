@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPos));
             this.groupBoxMenu = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -113,7 +112,7 @@
             // 
             // btnShotgun
             // 
-            this.btnShotgun.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnShotgun.BackgroundImage")));
+            this.btnShotgun.BackgroundImage = global::Homework.Properties.Resources.shotgun;
             this.btnShotgun.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnShotgun.Location = new System.Drawing.Point(6, 214);
             this.btnShotgun.Name = "btnShotgun";
@@ -126,7 +125,7 @@
             // 
             // btnPistol
             // 
-            this.btnPistol.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPistol.BackgroundImage")));
+            this.btnPistol.BackgroundImage = global::Homework.Properties.Resources.pisto;
             this.btnPistol.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPistol.ForeColor = System.Drawing.Color.Black;
             this.btnPistol.Location = new System.Drawing.Point(6, 121);
@@ -140,7 +139,7 @@
             // 
             // btnRifle
             // 
-            this.btnRifle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRifle.BackgroundImage")));
+            this.btnRifle.BackgroundImage = global::Homework.Properties.Resources.rifle;
             this.btnRifle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnRifle.Location = new System.Drawing.Point(6, 310);
             this.btnRifle.Name = "btnRifle";
@@ -153,7 +152,7 @@
             // 
             // buttonPen
             // 
-            this.buttonPen.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonPen.BackgroundImage")));
+            this.buttonPen.BackgroundImage = global::Homework.Properties.Resources.pen;
             this.buttonPen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.buttonPen.Location = new System.Drawing.Point(6, 26);
             this.buttonPen.Name = "buttonPen";
@@ -285,7 +284,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Homework.Properties.Resources.Guns_lots_of_guns_john_wick_gif;
+            this.pictureBox1.Image = global::Homework.Properties.Resources.Gunslotsofguns;
             this.pictureBox1.Location = new System.Drawing.Point(-7, 10);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(621, 478);

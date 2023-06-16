@@ -57,7 +57,7 @@
             // 
             this.splitContainer2.Panel1.AutoScroll = true;
             this.splitContainer2.Panel1.AutoScrollMinSize = new System.Drawing.Size(300, 600);
-            this.splitContainer2.Panel1.BackgroundImage = global::Homework.Properties.Resources.john_wick_lots_of_guns_hartono_amplas;
+            this.splitContainer2.Panel1.BackgroundImage = global::Homework.Properties.Resources.homeleft;
             this.splitContainer2.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer2.Panel1.Controls.Add(this.btnPicture);
             this.splitContainer2.Panel1.Controls.Add(this.btnguess);
@@ -74,9 +74,9 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.AutoScroll = true;
-            this.splitContainer2.Panel2.BackgroundImage = global::Homework.Properties.Resources._746551;
+            this.splitContainer2.Panel2.BackgroundImage = global::Homework.Properties.Resources.homeright;
             this.splitContainer2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.splitContainer2.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel2_Paint);
+            
             this.splitContainer2.Panel2MinSize = 500;
             this.splitContainer2.Size = new System.Drawing.Size(1484, 796);
             this.splitContainer2.SplitterDistance = 395;
@@ -232,11 +232,11 @@
             this.splitContainer1.Panel1.AutoScroll = true;
             this.splitContainer1.Panel1.AutoScrollMargin = new System.Drawing.Size(10, 10);
             this.splitContainer1.Panel1.AutoScrollMinSize = new System.Drawing.Size(10, 10);
-            this.splitContainer1.Panel1.BackgroundImage = global::Homework.Properties.Resources.Top;
+            this.splitContainer1.Panel1.BackgroundImage = global::Homework.Properties.Resources.hometop;
             this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Panel1.Enabled = false;
             this.splitContainer1.Panel1.Padding = new System.Windows.Forms.Padding(1);
-            this.splitContainer1.Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel1_Paint);
+       
             // 
             // splitContainer1.Panel2
             // 

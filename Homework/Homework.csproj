@@ -190,25 +190,37 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\771253.jpg" />
+    <None Include="Resources\Gunslotsofguns.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\LOAN1.png" />
+    <None Include="Resources\hello.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Guns-lots-of-guns-john-wick-gif.gif" />
+    <None Include="Resources\homeleft.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\2.gif" />
+    <None Include="Resources\homeright.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\746551.jpg" />
+    <None Include="Resources\hometop.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\john-wick-lots-of-guns-hartono-amplas.jpg" />
+    <None Include="Resources\knockhead.gif" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\Top.jpg" />
+    <None Include="Resources\LOAN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pisto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rifle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shotgun.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

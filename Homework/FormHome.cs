@@ -16,7 +16,7 @@ namespace Homework
         {
             InitializeComponent();
         }
-        private FormHello FHello;
+
         private void btnHello_Click(object sender, EventArgs e)
         {
                 FormHello FHello = new FormHello();
@@ -76,23 +76,17 @@ namespace Homework
         private void btnguess_Click(object sender, EventArgs e)
         {
             FormGuess FGu = new FormGuess();
+            FGu.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Add(FGu);
             FGu.Show();
         }
 
         private void btnPicture_Click(object sender, EventArgs e)
         {
             FormPicture FP = new FormPicture();
+            FP.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Add(FP);
             FP.Show();
-        }
-
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void splitContainer2_Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

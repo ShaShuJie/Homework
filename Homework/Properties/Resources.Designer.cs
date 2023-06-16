@@ -63,9 +63,9 @@ namespace Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap _2 {
+        internal static System.Drawing.Bitmap Gunslotsofguns {
             get {
-                object obj = ResourceManager.GetObject("2", resourceCulture);
+                object obj = ResourceManager.GetObject("Gunslotsofguns", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap _746551 {
+        internal static System.Drawing.Bitmap hello {
             get {
-                object obj = ResourceManager.GetObject("746551", resourceCulture);
+                object obj = ResourceManager.GetObject("hello", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap _771253 {
+        internal static System.Drawing.Bitmap homeleft {
             get {
-                object obj = ResourceManager.GetObject("771253", resourceCulture);
+                object obj = ResourceManager.GetObject("homeleft", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap Guns_lots_of_guns_john_wick_gif {
+        internal static System.Drawing.Bitmap homeright {
             get {
-                object obj = ResourceManager.GetObject("Guns-lots-of-guns-john-wick-gif", resourceCulture);
+                object obj = ResourceManager.GetObject("homeright", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap john_wick_lots_of_guns_hartono_amplas {
+        internal static System.Drawing.Bitmap hometop {
             get {
-                object obj = ResourceManager.GetObject("john-wick-lots-of-guns-hartono-amplas", resourceCulture);
+                object obj = ResourceManager.GetObject("hometop", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap LOAN1 {
+        internal static System.Drawing.Bitmap knockhead {
             get {
-                object obj = ResourceManager.GetObject("LOAN1", resourceCulture);
+                object obj = ResourceManager.GetObject("knockhead", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap Top {
+        internal static System.Drawing.Bitmap LOAN {
             get {
-                object obj = ResourceManager.GetObject("Top", resourceCulture);
+                object obj = ResourceManager.GetObject("LOAN", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,39 @@ namespace Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
-        internal static System.Drawing.Bitmap Top1 {
+        internal static System.Drawing.Bitmap pen {
             get {
-                object obj = ResourceManager.GetObject("Top1", resourceCulture);
+                object obj = ResourceManager.GetObject("pen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap pisto {
+            get {
+                object obj = ResourceManager.GetObject("pisto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap rifle {
+            get {
+                object obj = ResourceManager.GetObject("rifle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap shotgun {
+            get {
+                object obj = ResourceManager.GetObject("shotgun", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
