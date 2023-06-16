@@ -76,12 +76,16 @@ namespace Homework
         private void btnguess_Click(object sender, EventArgs e)
         {
             FormGuess FGu = new FormGuess();
+            FGu.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Add(FGu);
             FGu.Show();
         }
 
         private void btnPicture_Click(object sender, EventArgs e)
         {
             FormPicture FP = new FormPicture();
+            FP.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Add(FP);
             FP.Show();
         }
 
