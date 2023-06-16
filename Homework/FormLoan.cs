@@ -18,7 +18,7 @@ namespace Homework
         public FormLoan()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.FixedSingle; // 設置窗口邊框樣式為固定的單個邊框
+            this.FormBorderStyle = FormBorderStyle.FixedToolWindow; // 設置窗口邊框樣式為固定的單個邊框
             this.Size = new Size(750, 500);
         }
 

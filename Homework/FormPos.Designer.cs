@@ -302,6 +302,7 @@
             this.Controls.Add(this.groupBoxList);
             this.Controls.Add(this.groupBoxTotalPrice);
             this.Controls.Add(this.groupBoxMenu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.Name = "FormPos";
             this.Text = "Pos";

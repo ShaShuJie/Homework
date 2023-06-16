@@ -202,6 +202,7 @@
             this.Controls.Add(this.labEN);
             this.Controls.Add(this.labCH);
             this.Controls.Add(this.labName);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormStruct";
             this.Text = "成績";
             this.groupBox1.ResumeLayout(false);

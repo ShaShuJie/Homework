@@ -118,11 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Gunslotsofguns" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Gunslotsofguns.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hometop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hometop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="hello" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hello.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="knockhead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\knockhead.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunslotsofguns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gunslotsofguns.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOAN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pisto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pisto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="homeleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\homeleft.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,25 +148,10 @@
   <data name="homeright" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\homeright.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hometop" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hometop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="knockhead" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\knockhead.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LOAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LOAN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pisto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pisto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="rifle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\rifle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shotgun" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shotgun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="redbluepill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\redbluepill.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Homework
@@ -8,6 +9,7 @@ namespace Homework
         public FormGuess()
         {
             InitializeComponent();
+            this.Size = new Size(750, 550);
         }
         
         public int FGRandomNumber;

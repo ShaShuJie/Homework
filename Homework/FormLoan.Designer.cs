@@ -187,6 +187,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormLoan";
             this.Text = "貸款計算";
             this.groupBox1.ResumeLayout(false);

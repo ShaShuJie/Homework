@@ -106,7 +106,6 @@
             // 
             // textRELoanAmount
             // 
-            this.textRELoanAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textRELoanAmount.Location = new System.Drawing.Point(340, 113);
             this.textRELoanAmount.Name = "textRELoanAmount";
             this.textRELoanAmount.ReadOnly = true;
@@ -146,6 +145,7 @@
             this.Controls.Add(this.textRELoanYear);
             this.Controls.Add(this.labLoanAmount);
             this.Controls.Add(this.textRELoanAmount);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormLoanReport";
             this.Text = "報告輸出";
             this.ResumeLayout(false);

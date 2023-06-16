@@ -36,7 +36,7 @@
             // btnGuess
             // 
             this.btnGuess.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnGuess.Location = new System.Drawing.Point(134, 199);
+            this.btnGuess.Location = new System.Drawing.Point(132, 366);
             this.btnGuess.Name = "btnGuess";
             this.btnGuess.Size = new System.Drawing.Size(160, 59);
             this.btnGuess.TabIndex = 0;
@@ -48,7 +48,7 @@
             // 
             this.labShow.AutoSize = true;
             this.labShow.Font = new System.Drawing.Font("標楷體", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labShow.Location = new System.Drawing.Point(180, 136);
+            this.labShow.Location = new System.Drawing.Point(258, 253);
             this.labShow.Name = "labShow";
             this.labShow.Size = new System.Drawing.Size(238, 29);
             this.labShow.TabIndex = 1;
@@ -57,7 +57,7 @@
             // btnAnswer
             // 
             this.btnAnswer.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnAnswer.Location = new System.Drawing.Point(300, 199);
+            this.btnAnswer.Location = new System.Drawing.Point(468, 366);
             this.btnAnswer.Name = "btnAnswer";
             this.btnAnswer.Size = new System.Drawing.Size(160, 59);
             this.btnAnswer.TabIndex = 2;
@@ -69,10 +69,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = global::Homework.Properties.Resources.redbluepill;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(734, 511);
             this.Controls.Add(this.btnAnswer);
             this.Controls.Add(this.labShow);
             this.Controls.Add(this.btnGuess);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormGuess";
             this.Text = "猜數字";
             this.ResumeLayout(false);
