@@ -19,16 +19,18 @@ namespace Homework
 
         private void btnHello_Click(object sender, EventArgs e)
         {
-                FormHello FHello = new FormHello();
-                FHello.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
-                splitContainer2.Panel2.Controls.Add(FHello);
-                FHello.Show();
+            FormHello FHello = new FormHello();
+            FHello.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Clear();
+            splitContainer2.Panel2.Controls.Add(FHello);
+            FHello.Show();
         }
 
         private void btnOpenLoan_Click(object sender, EventArgs e)
         {
             FormLoan FLoan = new FormLoan();
             FLoan.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Clear();
             splitContainer2.Panel2.Controls.Add(FLoan);
             FLoan.Show();
         }
@@ -37,6 +39,7 @@ namespace Homework
         {
             FormPos FPos = new FormPos();
             FPos.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Clear();
             splitContainer2.Panel2.Controls.Add(FPos);
             FPos.Show();
         }
@@ -45,6 +48,7 @@ namespace Homework
         {
             FormCal FCal = new FormCal();
             FCal.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Clear();
             splitContainer2.Panel2.Controls.Add(FCal);
             FCal.Show();
         }
@@ -53,6 +57,7 @@ namespace Homework
         {
             FormAlarm FAla = new FormAlarm();
             FAla.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Clear();
             splitContainer2.Panel2.Controls.Add(FAla);
             FAla.Show();
         }
@@ -61,6 +66,7 @@ namespace Homework
         {
             FormPaint FPa= new FormPaint();
             FPa.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Clear();
             splitContainer2.Panel2.Controls.Add(FPa);
             FPa.Show();
         }
@@ -69,6 +75,7 @@ namespace Homework
         {
             FormStruct FSt = new FormStruct();
             FSt.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Clear();
             splitContainer2.Panel2.Controls.Add(FSt);
             FSt.Show();
         }
@@ -77,6 +84,7 @@ namespace Homework
         {
             FormGuess FGu = new FormGuess();
             FGu.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Clear();
             splitContainer2.Panel2.Controls.Add(FGu);
             FGu.Show();
         }
@@ -85,6 +93,7 @@ namespace Homework
         {
             FormPicture FP = new FormPicture();
             FP.TopLevel = false; // 將 TopLevel 屬性設置為 false，使其不成為獨立的頂級視窗
+            splitContainer2.Panel2.Controls.Clear();
             splitContainer2.Panel2.Controls.Add(FP);
             FP.Show();
         }

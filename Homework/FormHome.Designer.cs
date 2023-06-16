@@ -76,7 +76,6 @@
             this.splitContainer2.Panel2.AutoScroll = true;
             this.splitContainer2.Panel2.BackgroundImage = global::Homework.Properties.Resources.homeright;
             this.splitContainer2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            
             this.splitContainer2.Panel2MinSize = 500;
             this.splitContainer2.Size = new System.Drawing.Size(1484, 796);
             this.splitContainer2.SplitterDistance = 395;
@@ -236,7 +235,6 @@
             this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Panel1.Enabled = false;
             this.splitContainer1.Panel1.Padding = new System.Windows.Forms.Padding(1);
-       
             // 
             // splitContainer1.Panel2
             // 
